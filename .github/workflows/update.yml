@@ -1,0 +1,37 @@
+
+name: DailyUpdate
+
+on:
+  schedule:
+    - cron: '0 22 * * *'
+      
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
+
+    - name: set up python
+      uses: actions/setup-python@master
+      with:
+        python-version: 3.6
+
+    - name: install xpath
+      run: |
+        pip install lxml
+        python generate.py
+        
+    - name: commit
+      run: |
+        git config --global user.email 1425795337@qq.com
+        git config --global user.name logycoconut
+        git add .
+        git commit -m "dailyUpdate"
+        
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        
