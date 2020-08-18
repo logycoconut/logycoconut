@@ -1,10 +1,10 @@
 
 name: DailyUpdate
 
-# on:
-#   schedule:
-#     - cron: '0 22 * * *'
-on: push
+on:
+  push:
+  schedule:
+    - cron: '0 22 * * *'
       
 jobs:
   # This workflow contains a single job called "build"
