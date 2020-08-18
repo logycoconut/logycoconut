@@ -1,9 +1,10 @@
 
 name: DailyUpdate
 
-on:
-  schedule:
-    - cron: '0 22 * * *'
+# on:
+#   schedule:
+#     - cron: '0 22 * * *'
+on: push
       
 jobs:
   # This workflow contains a single job called "build"
@@ -20,6 +21,7 @@ jobs:
 
     - name: generate README
       run: |
+        pip install requests
         pip install lxml
         python generate.py
         
