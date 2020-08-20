@@ -9,11 +9,11 @@
 ```
 ## Latest
 
+* August 18, 2020 - [SpringBoot中定时任务的异步执行](https://logycoco.xyz/2020/016_springboot_async/) 
 * August 12, 2020 - [SpringBoot实现自己的拦截器](https://logycoco.xyz/2020/015_spring_handlerinterceptoradapter/) 
 * July 21, 2020 - [SpringMVC的参数验证中BindingResult的使用](https://logycoco.xyz/2020/014_spring_bindingresult/) 
+* June 30, 2020 - [SpringMVC之HandlerMethodArgumentResolver实现数据绑定](https://logycoco.xyz/2020/013_spring_handlermethodargumentresolver/) 
 * June 14, 2020 - [记一次黑苹果安装过程](https://logycoco.xyz/2020/012_hackintoshinstall/) 
-* February 21, 2020 - [如何实现无状态登录](https://logycoco.xyz/2020/011_token_rsa/) 
-* February 2, 2020 - [Zuul的鉴权以及微服务的跨域问题](https://logycoco.xyz/2020/010_spring_boot_gateway/) 
 
 [>>> More](https://logycoco.xyz/posts/)
 ## Statistics
