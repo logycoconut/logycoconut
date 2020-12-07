@@ -9,11 +9,11 @@
 ```
 ## Latest
 
+* December 3, 2020 - [Spring中事务的处理](https://logycoco.xyz/2020/021_springdatajpa_transactional/) 
+* December 3, 2020 - [Auditing及其事件详解](https://logycoco.xyz/2020/020_springdatajpa_auditing/) 
+* December 1, 2020 - [Java8 Stream多字段分组求和groupingBy](https://logycoco.xyz/2020/019_java8_stream_groupby/) 
 * September 21, 2020 - [通过密钥登陆服务器](https://logycoco.xyz/2020/018_ssh_key/) 
 * August 27, 2020 - [设计一个秒杀系统](https://logycoco.xyz/2020/017_seckill_system_design/) 
-* August 18, 2020 - [SpringBoot中定时任务的异步执行](https://logycoco.xyz/2020/016_springboot_async/) 
-* August 12, 2020 - [SpringBoot实现自己的拦截器](https://logycoco.xyz/2020/015_spring_handlerinterceptoradapter/) 
-* July 21, 2020 - [SpringMVC的参数验证中BindingResult的使用](https://logycoco.xyz/2020/014_spring_bindingresult/) 
 
 [>>> More](https://logycoco.xyz/posts/)
 ## Statistics
