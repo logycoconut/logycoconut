@@ -1,4 +1,5 @@
 import requests
+import time
 from lxml import etree
 
 root = 'https://logycoco.xyz'
@@ -16,9 +17,12 @@ with open('README.md', 'w', encoding='utf-8') as f:
                     /_/\____/\__, /\__, /\___/\____/\___/_/ /_/\__,_/\__/  
                             /____//____/                                                                    
 ```
-## Latest
+
 
 ''')
+
+    localtime = time.strftime(" %b %d %Y", time.localtime()) 
+    f.write('## Latest ( Update On {} )'.format(localtime))
 
     items = html.xpath("//article[@class='archive-item']")[:5]
 
