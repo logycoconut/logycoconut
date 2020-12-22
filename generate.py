@@ -22,7 +22,7 @@ with open('README.md', 'w', encoding='utf-8') as f:
 ''')
 
     localtime = time.strftime(" %b %d %Y", time.localtime()) 
-    f.write('## Latest ( Update On {} )'.format(localtime))
+    f.write('## Latest ( Update On {} )\r\n'.format(localtime))
 
     items = html.xpath("//article[@class='archive-item']")[:5]
 
