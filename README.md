@@ -9,12 +9,12 @@
 ```
 
 
-## Latest ( Update On  Dec 22 2020 )
+## Latest ( Update On  Dec 25 2020 )
+* December 25, 2020 - [Spring Cloud 之 OpenFeign的使用](https://logycoco.xyz/2020/024_spring_cloud_notes_feign/) 
+* December 22, 2020 - [Spring Cloud 之 Eureka实现服务注册和发现](https://logycoco.xyz/2020/023_spring_cloud_notes_eureka/) 
+* December 16, 2020 - [如果你也在学习Spring Cloud](https://logycoco.xyz/2020/022_spring_cloud_notes_01/) 
 * December 3, 2020 - [Spring中事务的处理](https://logycoco.xyz/2020/021_springdatajpa_transactional/) 
 * December 3, 2020 - [Auditing及其事件详解](https://logycoco.xyz/2020/020_springdatajpa_auditing/) 
-* December 1, 2020 - [Java8 Stream多字段分组求和groupingBy](https://logycoco.xyz/2020/019_java8_stream_groupby/) 
-* September 21, 2020 - [通过密钥登陆服务器](https://logycoco.xyz/2020/018_ssh_key/) 
-* August 27, 2020 - [设计一个秒杀系统](https://logycoco.xyz/2020/017_seckill_system_design/) 
 
 [>>> More](https://logycoco.xyz/posts/)
 ## Statistics
